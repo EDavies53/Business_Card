@@ -68,39 +68,36 @@
         /* =========================================================
            HERO / PROFILE AREA
         ========================================================= */
+.hero {
 
-        .hero {
+    position: relative;
 
-            position: relative;
+    min-height: 520px;
 
-            min-height: 520px;
+    display: flex;
 
-            display: flex;
+    align-items: flex-end;
 
-            align-items: flex-end;
+    padding: 30px 25px;
 
-            padding: 30px 25px;
+    overflow: hidden;
 
-            overflow: hidden;
+    background:
 
-            background:
+        linear-gradient(
+            to top,
+            #080808 0%,
+            rgba(8,8,8,0.85) 25%,
+            rgba(8,8,8,0.30) 65%,
+            rgba(8,8,8,0.05) 100%
+        ),
 
-                /* Dark gradient */
-                linear-gradient(
-                    to top,
-                    #080808 0%,
-                    rgba(8,8,8,0.85) 25%,
-                    rgba(8,8,8,0.30) 65%,
-                    rgba(8,8,8,0.05) 100%
-                ),
+        url("profile.jpeg");
 
-                /* Temporary background */
-                linear-gradient(
-                    135deg,
-                    #3a3a3a,
-                    #111111
-                );
-        }
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
         /*
